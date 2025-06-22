@@ -1,5 +1,5 @@
 import Letter from './Letter'
-import './letterRow.css'
+import './LetterRow.css'
 import { useEffect, useMemo, useState } from 'react'
 
 interface LetterRowProps {

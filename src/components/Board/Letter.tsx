@@ -1,4 +1,4 @@
-import './letter.scss'
+import './Letter.scss'
 
 interface LetterProps {
     input: string,
