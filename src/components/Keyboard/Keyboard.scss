@@ -1,0 +1,43 @@
+.keyboard-key {
+    display: flex;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: lightgray;
+    min-width: 30px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 12pt;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+    &.enter {
+        width: 50px;
+    }
+
+    &.backspace {
+        width: 50px;
+    }
+
+    &.dimmed {
+        background-color: dimgray
+    }
+}
+
+.keyboard-spacer {
+    width: 10px;
+}
+
+.keyboard-row {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+}

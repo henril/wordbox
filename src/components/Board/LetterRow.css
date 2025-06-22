@@ -1,0 +1,27 @@
+.letter-row {
+    display: flex;
+
+    &.pulse {
+        animation: pulse 0.5s ease-in-out infinite;
+    }
+
+    &.shake {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        animation: shake 2s 1s;
+    }
+
+    @keyframes shake {
+        0%,
+        100% {
+            left: 0;
+        }
+
+        50% {
+            left: 20px;
+        }
+    }
+
+}
+

@@ -1,0 +1,29 @@
+.letter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    text-transform: uppercase;
+    height: 50px;
+    width: 50px;
+    border: solid 2px;
+    padding-top: 13px;
+    margin: 2px;
+    text-align: center;
+
+    &.pulse {
+        animation: pulse 0.5s ease-in-out infinite;
+    }
+
+    &.correct {
+        background-color: greenyellow;
+    }
+
+    &.incorrect {
+        background-color: gray;
+    }
+
+    &.misplaced {
+        background-color: orange;
+    }
+
+}
+
